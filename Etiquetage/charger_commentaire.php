@@ -18,5 +18,5 @@ if (($handle = fopen($csvFile, 'r')) !== false) {
 $commentaireAleatoire = $commentaires[array_rand($commentaires)];
 
 // Afficher le commentaire aléatoire
-echo '<p>' . htmlspecialchars($commentaireAleatoire) . '</p>';
+//echo '<p>' . htmlspecialchars($commentaireAleatoire) . '</p>';
 ?>
